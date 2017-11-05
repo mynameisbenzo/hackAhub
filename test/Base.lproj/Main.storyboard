@@ -44,15 +44,15 @@
             </objects>
             <point key="canvasLocation" x="840.79999999999995" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--Splash Screen-->
         <scene sceneID="dxw-Bi-jqN">
             <objects>
-                <viewController id="SgK-YE-d5n" sceneMemberID="viewController">
+                <viewController id="SgK-YE-d5n" customClass="SplashScreen" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Spc-Cu-vsA"/>
                         <viewControllerLayoutGuide type="bottom" id="aCV-uz-8nY"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yVF-hr-HSQ" customClass="SplashScreenController">
+                    <view key="view" contentMode="scaleToFill" id="yVF-hr-HSQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
