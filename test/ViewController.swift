@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIWebViewDelegate, CLLocationManagerDele
     //Mark: Variables
     var loadingFinishd = true
     var redirect = false
-    var locationManger: CLLocationManager!
+    var locationManager: CLLocationManager!
     
     //Mark: View Variables
     @IBOutlet weak var webView: UIWebView!
@@ -24,9 +24,9 @@ class ViewController: UIViewController, UIWebViewDelegate, CLLocationManagerDele
         super.viewDidLoad()
         
         //location check/request
-        locationManger = CLLocationManager()
-        locationManger.delegate = self
-        locationManger.requestWhenInUseAuthorization()
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
         
         //stretch it
         webView.frame = self.view.bounds
